@@ -1,4 +1,4 @@
-<script>
+//LEONS IP ADDRESS: 10.24.42.86
 // Connect to PeerJS, have server assign an ID instead of providing one
 // Showing off some of the configs available with PeerJS :).
 var peer = new Peer({
@@ -47,7 +47,7 @@ function connect(c) {
       messages.append('<div><span class="peer">' + c.peer + '</span>: ' + data +
         '</div>');
         });
-        c.on('close', function() {
+    c.on('close', function() {
           alert(c.peer + ' has left the chat.');
           chatbox.remove();
           if ($('.connection').length === 0) {
@@ -157,4 +157,3 @@ window.onunload = window.onbeforeunload = function(e) {
     peer.destroy();
   }
 };
-</script>

@@ -1,1 +1,0 @@
-various modules that will contain functions used by the application

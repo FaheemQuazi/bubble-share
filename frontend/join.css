@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(to bottom, #000000 0%, #003366 50%, #000000 100%);
+}
+
+h1 {
+    background-color: black;
+}
+
+div {
+    background: linear-gradient(to bottom, #cacaca 0%, #666666 100%);
+}
+
+span {
+    background-color: #f18973;
+}

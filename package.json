@@ -1,0 +1,23 @@
+{
+  "name": "bubble-share",
+  "version": "1.0.0",
+  "description": "Project for HackUTD 2018. File sharing, simplified.",
+  "main": "testapp.js",
+  "dependencies": {
+    "gun": "^0.9.94"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljacob15/bubble-share.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljacob15/bubble-share/issues"
+  },
+  "homepage": "https://github.com/ljacob15/bubble-share#readme"
+}

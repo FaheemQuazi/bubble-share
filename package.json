@@ -20,7 +20,9 @@
     "electron": "~1.8.2"
   },
   "dependencies": {
+    "ip": "^1.1.5",
     "moniker": "^0.1.2",
+    "object-hash": "^1.2.0",
     "peer": "^0.2.8"
   }
 }

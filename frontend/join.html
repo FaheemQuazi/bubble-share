@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BubbleShare</title>
+    <script type="text/javascript" src="./js/jquery/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/utils.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+</head>
+
+<body class="h-100">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <form class="col-12">
+                    <div class="form-group">
+                        <label for="frmSpaceID">Space Identifier</label>
+                        <input type="text" class="form-control" id="frmSpaceID" placeholder="xxx.xxx.xxx.xxx:1234:abcd">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success" onclick="verifyAndJoinSpace();">Submit</button>
+                        <button type="button" class="btn btn-secondary" onclick="document.location.href='index.html'">Back</button>
+                    </div>
+            </form>   
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="./js/pageLogic/join.js"></script>
+</body>
+
+</html>

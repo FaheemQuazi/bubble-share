@@ -1,0 +1,8 @@
+file-item {
+    margin: 10px;
+    display: inline-block;
+}
+
+#FileList {
+    overflow-y: auto;
+}
